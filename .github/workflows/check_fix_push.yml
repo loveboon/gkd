@@ -4,6 +4,13 @@ on:
   push:
     branches:
       - '**'
+    paths-ignore:
+      - 'dist/*'
+      - '.github/*'
+      - '.gitattributes'
+      - '.gitignore'
+      - 'LICENCE'
+      - 'README.md'
 
 permissions: write-all
 
