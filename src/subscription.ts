@@ -17,7 +17,7 @@ apps.forEach((appConfig) => {
 
 export default defineGkdSubscription({
   id: 708,
-  name: 'GKD 订阅',
+  name: 'GKD订阅-说到诡计，我也很擅长哦？比如…偷走一个人的「心」♪',
   version: 0,
   author: '一笑而过£',
   checkUpdateUrl: './gkd.version.json5',
