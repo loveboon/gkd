@@ -34,7 +34,7 @@ export default defineGkdApp({
     },
     {
       key: 1,
-      name: '局部广告-购物车页面砸金蛋',
+      name: '评价提示-购物车页面砸金蛋',
       desc: '点击关闭',
       rules: [
         {
@@ -47,7 +47,7 @@ export default defineGkdApp({
     },
     {
       key: 2,
-      name: '局部广告-悬浮广告',
+      name: '其他-悬浮广告',
       activityIds: 'com.jingdong.app.mall.MainFrameActivity',
       rules: [
         {
