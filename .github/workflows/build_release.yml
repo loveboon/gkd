@@ -1,6 +1,8 @@
 name: build_release
 
 on: workflow_dispatch
+schedule:
+    - cron: '0 20 * * *'  # 北京时间 4: 00
 
 jobs:
   build_release:

@@ -1,3 +1,7 @@
+import { batchImportApps } from '@gkd-kit/tools';
+
+const apps = await batchImportApps(`${import.meta.dirname}/apps`);
+
 // 全局规则黑名单
 // 在一些非系统应用中禁用所有全局规则
 export const blackListAppIDs: string[] = [
@@ -80,6 +84,10 @@ export const blackListAppIDs: string[] = [
 // 开屏广告黑名单
 export const openAdBlackListAppIDs = new Set([
   ...blackListAppIDs,
+  // 如果应用规则已有开屏广告一类的规则, 则在全局规则禁用此应用
+  ...apps
+    .filter((app) => app.groups?.some((g) => g.name.startsWith('开屏广告')))
+    .map((app) => app.id),
   'com.taptap', // TapTap
   'com.sankuai.meituan', // 美团 误触 https://i.gkd.li/i/17827264
 ]);
@@ -87,10 +95,10 @@ export const openAdBlackListAppIDs = new Set([
 // 更新提示黑名单
 export const updateBlackListAppIDs = new Set([
   ...blackListAppIDs,
-  // 全局规则默认不匹配系统应用，但有的用户喜欢无脑开启规则，容易造成误触，故在此手动禁用
-  'com.android.packageinstaller', // 软件包安装程序
-  'com.google.android.packageinstaller', // 软件包安装程序
-  'com.oplus.appdetail', // 应用安装器
+  // 如果应用规则已有更新提示一类的规则, 则在全局规则禁用此应用
+  ...apps
+    .filter((app) => app.groups?.some((g) => g.name.startsWith('更新提示')))
+    .map((app) => app.id),
 
   //-----------------------------------------------------
 
@@ -100,6 +108,10 @@ export const updateBlackListAppIDs = new Set([
 // 青少年模式黑名单
 export const yongBlackListAppIDs = new Set([
   ...blackListAppIDs,
+  // 如果应用规则已有青少年模式一类的规则, 则在全局规则禁用此应用
+  ...apps
+    .filter((app) => app.groups?.some((g) => g.name.startsWith('青少年模式')))
+    .map((app) => app.id),
   'com.zhihu.android', // 知乎 全局规则在 https://i.gkd.li/i/14964990 误触
   'com.luna.music', // 汽水音乐 全局规则在 https://i.gkd.li/i/15124801 误触
   'com.baidu.tieba', // 百度贴吧

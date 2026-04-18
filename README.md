@@ -1,24 +1,5 @@
 # GKD订阅
 
-<details>
-<summary><b>📋 预言</b></summary>
-<br>
-
-💕汝将最后一次沐浴，在温热耀眼的黄金中。<br>
-💕汝将碎作千片，凋零于他乡的土壤。<br>
-💕终有一日，汝将背后负创而死。<br>
-💕花海尽头，生者的魂灵将温暖汝之指尖，相拥之后，便是永恒的离别。<br>
-💕汝将凋零，令逝者自残余中发芽，一同死去的火新生。<br>
-💕汝将超越至纯粹之终极，回归腐败苦黑。<br>
-💕在彩虹桥的尽头，天空之子将缝补晨昏。<br>
-💕汝将与贪婪同行，亦将亡于分文。<br>
-💕汝将肩负骄阳，直至灰白的黎明显著。<br>
-💕汝将长眠于涛声中，于天地境界之海完成征服。<br>
-💕汝将于天地境界之海完成征服，长眠于涛声中。<br>
-💕汝将自掘坟墓，焚毁于叛逆的熔炉。<br>
-
-</details>
-
 💕汝将收梢于花开时，一如终结诞下起始♪
 
 ---
@@ -37,6 +18,7 @@
 https://raw.githubusercontent.com/boonlove/GKD_Subscription/main/dist/gkd.json5
 ```
 
+- 
 - 查看 [适配 APP 列表](./dist/README.md)
 - 使用 [GKD订阅模板](https://github.com/gkd-kit/subscription-template) 快速构建自己的订阅
 
