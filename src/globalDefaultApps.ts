@@ -45,6 +45,10 @@ export const blackListAppIDs: string[] = [
   'xyz.xfqlittlefan.notdeveloper', // 我不是开发者
   'com.aistra.hail', // 雹
   'com.luckyzyx.luckytool', // LuckyTool 全局规则误触 https://i.gkd.li/i/21339859
+  'github.tornaco.android.thanos', // Thanox
+  'io.github.lsposed.disableflagsecure', // 启用截图
+  'com.flass.layoutinspect', // Layout Inspect
+  'io.github.chimio.inxlocker', // InxLocker
 
   // 玩机
   'com.termux', // Termux

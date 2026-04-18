@@ -11,6 +11,9 @@ export default defineGkdApp({
       rules: [
         {
           fastQuery: true,
+          matchTime: 6000,
+          actionMaximum: 1,
+          resetMatch: 'app',
           activityIds: 'com.mihoyo.hyperion.main.HyperionMainActivity',
           matches:
             '@TextView[id="com.mihoyo.hyperion:id/tv_dialog_i_know"][text="我知道了"] - TextView[id="com.mihoyo.hyperion:id/tv_dialog_go_to_teenage_mode"] -2 TextView[text="未成年人模式"]',

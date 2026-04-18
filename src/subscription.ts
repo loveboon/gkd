@@ -17,11 +17,11 @@ apps.forEach((appConfig) => {
 
 export default defineGkdSubscription({
   id: 708,
-  name: 'GKD订阅-说到诡计，我也很擅长哦？比如…偷走一个人的「心」♪',
+  name: 'GKD订阅-汝将收梢于花开时，一如终结诞下起始♪',
   version: 0,
   author: '一笑而过£',
   checkUpdateUrl: './gkd.version.json5',
-  supportUri: 'https://github.com/gkd-kit/subscription-template',
+  supportUri: 'https://github.com/boonlove/GKD_Subscription/discussions',
   categories,
   globalGroups,
   apps: rawApps,
