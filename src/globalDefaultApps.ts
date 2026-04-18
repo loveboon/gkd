@@ -44,6 +44,7 @@ export const blackListAppIDs: string[] = [
   'com.google.android.youtube', // YouTube
   'com.zhiliaoapp.musically', // TikTok
   'com.paypal.android.p2pmobile', // PayPal
+  'com.camel.corp.universalcopy', // 全局复制
 
   // ROOT 管理器
   'com.topjohnwu.magisk', // Magisk
@@ -78,7 +79,7 @@ export const blackListAppIDs: string[] = [
   'me.neko.fckvip', // Fuck for VIP
   'me.feimeng.vip', // FreeMoe
   'top.hookvip.pro', // HookVip
-  'xyz.xfqlittlefan.notdeveloper', // 我不是开发者
+  'top.ltfan.notdeveloper', // 我不是开发者
   'com.aistra.hail', // 雹
   'com.luckyzyx.luckytool', // LuckyTool 全局规则误触 https://i.gkd.li/i/21339859
   'github.tornaco.android.thanos', // Thanox
@@ -141,6 +142,7 @@ export const blackListAppIDs: string[] = [
   'com.android.email', // 电子邮件
   'com.coloros.compass2', // 指南针
   'com.realme.linkcn', // realme Link
+  'com.finshell.wallet', // 钱包
 ];
 
 // 在应用中单独禁用某个全局规则
