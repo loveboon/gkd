@@ -8,6 +8,9 @@ export const blackListAppIDs: string[] = [
   // 国内
   'com.tencent.mm', // 微信
   'com.eg.android.AlipayGphone', //支付宝
+  'com.alibaba.android.rimet', // 钉钉
+  'cn.cyberIdentity.certification', // 国家网络身份认证
+  'com.csg.palmhall', // 南网在线
   'com.tencent.wetype', // 微信输入法
   'com.tmri.app.main', // 交管12123
   'com.alibaba.aliyun', // 阿里云
@@ -27,6 +30,10 @@ export const blackListAppIDs: string[] = [
   'org.localsend.localsend_app', // LocalSend
   'com.accessibilitymanager', // 无障碍管理器
   'io.legado.app.release', // 阅读
+  'io.legato.kazusa', // 阅读美化版
+  'ru.tech.imageresizershrinker', // Image ToolBox
+  'com.dijia1124.plusplusbattery', // 加加电池
+  'cn.myflv.monitor.noactive', // NoActive Monitor
 
   // 国外
   'com.github.android', // GitHub
@@ -35,6 +42,16 @@ export const blackListAppIDs: string[] = [
   'com.valvesoftware.android.steam.community', // Steam
   'com.openai.chatgpt', // ChatGPT
   'com.google.android.youtube', // YouTube
+  'com.zhiliaoapp.musically', // TikTok
+  'com.paypal.android.p2pmobile', // PayPal
+
+  // ROOT 管理器
+  'com.topjohnwu.magisk', // Magisk
+  'io.github.vvb2060.magisk', // Alpha
+  'me.weishu.kernelsu', // KernrlSU
+  'com.rifsxd.ksunext', // KernelSU Next
+  'com.sukisu.ultra', // SukiSU Ultra
+  'com.resukisu.resukisu', // ReSukiSU
 
   // ROOT
   'gr.nikolasspyr.integritycheck', // Play Integrity API Checker
@@ -43,9 +60,24 @@ export const blackListAppIDs: string[] = [
   'com.reveny.nativecheck', // Native Detector
   'com.zhenxi.hunter', // Hunter
   'com.reveny.nativecheck', // Native Detector
+  'icu.nullptr.applistdetector', // Applist Detector
+  'com.eltavine.duckdetector', // Duck Detector
+  'io.github.vvb2060.mahoshojo', // Momo
+  'icu.nullptr.nativetest', // Native Test ++
+  'com.chunqiunativecheck', // 春秋 Native Check
+  'com.chunqiudetector', // 春秋检测
 
   // Xposed 模块
+  'me.hd.wauxv', // WAuxiliary
+  'io.github.qauxv', // QAuxiliary
+  'com.ghostmapx.app', // GhostMap X
+  'com.kankan.globaltraveling', // Shadow
+  'io.github.zensu357.camswap', // CamSwap
+  'com.tsng.hidemyapplist', //隐藏应用列表
+  'org.frknkrc44.hma_oss', // HMA-OSS
   'me.neko.fckvip', // Fuck for VIP
+  'me.feimeng.vip', // FreeMoe
+  'top.hookvip.pro', // HookVip
   'xyz.xfqlittlefan.notdeveloper', // 我不是开发者
   'com.aistra.hail', // 雹
   'com.luckyzyx.luckytool', // LuckyTool 全局规则误触 https://i.gkd.li/i/21339859
@@ -53,18 +85,31 @@ export const blackListAppIDs: string[] = [
   'io.github.lsposed.disableflagsecure', // 启用截图
   'com.flass.layoutinspect', // Layout Inspect
   'io.github.chimio.inxlocker', // InxLocker
+  'io.github.a13e300.fusefixer', // FuseFixer
+  'com.wengui.hook', // Dear God
+  'com.cxapk.viphelper', // VIP Helpr
+  'com.comewhy.gtext', // GText
+  'com.tiktokbypass.simspoof', // TikTokSIMSpoof
 
   // 玩机
+  'com.f0x1d.logfox', // LogFox
   'com.termux', // Termux
   'bin.mt.plus', // MT管理器
   'rikka.appops', // App Ops
+  'com.omarea.vtools', // Scene
   'moe.shizuku.privileged.api', // Shizuku
   'com.rosan.dhizuku', // Dhizuku
   'com.absinthe.libchecker', // LibChecker
+  'eu.sisik.hackendebug', // Bugjaeger
+  'com.didjdk.adbhelper', // 甲壳虫ADB助手
+  'vegabobo.dsusideloader', // DSU Sideloader
+  'org.lsposed.npatch', // NPatch
+  'fun.fpa', // FPA
 
   // 代理
   'com.getsurfboard', // Surfboard
   'moe.nb4a', // NekoBox
+  'com.github.dyhkwong.sagernet', // Exclave
   'com.v2ray.ang', // v2rayNG
   'com.v2ray.v2fly', // v2flyNG
   'com.github.metacubex.clash.meta', // Clash Meta for Android
@@ -78,6 +123,24 @@ export const blackListAppIDs: string[] = [
 
   'com.google.android.contactkeys', // Android System Key Verifier
   'com.google.android.safetycore', // Android System SafetyCore
+
+  // 手机厂商系统组件（不是系统软件）
+  // oppo
+  'andes.oplus.documentsreader', // 文档
+  'com.coloros.calculator', // 计算器
+  'com.coloros.filemanager', // 文件管理
+  'com.coloros.calendar', // 日历
+  'com.coloros.note', // 便签
+  'com.coloros.translate', // 翻译
+  'com.oplus.consumerIRApp', // 红外遥控
+  'com.coloros.soundrecorder', // 录音
+  'com.coloros.calendar', // 日历
+  'com.coloros.alarmclock', // 时钟
+  'com.coloros.weather2', // 天气
+  'com.coloros.shortcuts', // 小布指令
+  'com.android.email', // 电子邮件
+  'com.coloros.compass2', // 指南针
+  'com.realme.linkcn', // realme Link
 ];
 
 // 在应用中单独禁用某个全局规则
