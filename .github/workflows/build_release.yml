@@ -49,5 +49,5 @@ jobs:
         uses: softprops/action-gh-release@v3
         with:
           tag_name: v${{ steps.version.outputs.version }}
-          name: Release ${{ steps.version.outputs.version }}
+          name: v${{ steps.version.outputs.version }}
           body_path: ./dist/CHANGELOG.md
