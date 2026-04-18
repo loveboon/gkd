@@ -5,8 +5,8 @@ on:
     branches:
       - '**'
     paths-ignore:
-      - 'dist/*'
-      - '.github/*'
+      - 'dist/**'
+      - '.github/**'
       - '.gitattributes'
       - '.gitignore'
       - 'LICENCE'
